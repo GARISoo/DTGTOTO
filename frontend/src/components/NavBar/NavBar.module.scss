@@ -1,0 +1,56 @@
+header {
+    background-color: #080710;
+    border-bottom: 2px solid #1aac83;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+a,
+button {
+    margin-left: 10px;
+}
+
+span {
+    font-size: 12px;
+}
+
+.adminBtn, .logoutBtn {
+    background-color: #fff;
+    color: #1aac83;
+    border: 2px solid #1aac83;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.adminBtn {
+    background-color: rgb(240, 203, 203);
+    color: red;
+    border: 2px solid #d83838;
+}
